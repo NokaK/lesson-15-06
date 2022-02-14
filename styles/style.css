@@ -13,9 +13,9 @@ ul {
 .container {
 	max-width: 1260px;
 	width:  100%;
-	background: grey;
-	padding: 90px;
-	margin: 20px auto ;
+	/*background: grey;*/
+	padding: 40px;
+	margin: 0 auto ;
 	/*margin-top:  20px;
 	margin-bottom: 20px;
 	margin-left: auto;
@@ -27,10 +27,64 @@ ul {
 	font-family: 'ALK Rounded';
 	font-size:  30px;
 	color:  #fff;
+/*	position: relative;
+	top: -50px;*/
 }
 .text-wrapper {
 	max-width: 600px;
 	width:  100%;
 	display: inline-block;
 	font-family: 'Syne Tactile';
+	padding-top: 100px;
 }
+.navbar-li {
+	display: inline-block;
+	margin-right: 10px;
+}
+.header-block {
+	background-color: darkgoldenrod;
+	position: fixed;
+	width: 100%;
+	z-index: 10;
+}
+.navbar-li a {
+	color:  green;
+}
+.chat {
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+	position: fixed;
+/*	top: ;*/
+	bottom: 0;
+/*	left: ;*/
+	right: 0 ;
+}
+
+/*position absolute/relative*/
+
+.picture-content {
+	background-color: darkcyan;
+	position: relative;
+}
+.text-content {
+	position: absolute;
+	top: 120px;
+	left: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
